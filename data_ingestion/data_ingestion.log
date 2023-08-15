@@ -1,0 +1,14 @@
+2023-08-12 15:15:00,826 - INFO - Database created successfully.
+2023-08-12 15:15:00,826 - ERROR - Error occurred during data ingestion: [Errno 2] No such file or directory: 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\1_data_ingestion\\financial_data.csv'
+2023-08-12 15:19:33,037 - INFO - Database created successfully.
+2023-08-12 15:19:33,053 - ERROR - Error occurred during data ingestion: [Errno 2] No such file or directory: 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\1_data_ingestion\\financial_data.csv'
+2023-08-12 15:20:03,299 - INFO - Database created successfully.
+2023-08-12 15:20:03,299 - ERROR - Error occurred during data ingestion: [Errno 2] No such file or directory: 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\1_data_ingestion\\financial_data.csv'
+2023-08-12 15:22:09,639 - INFO - Database created successfully.
+2023-08-12 15:22:18,997 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-12 15:29:54,994 - INFO - Database created successfully.
+2023-08-12 15:30:05,024 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 18:21:01,823 - ERROR - Error occurred during database creation: unable to open database file
+2023-08-13 18:21:01,825 - ERROR - Error occurred during data ingestion: unable to open database file
+2023-08-13 18:25:21,542 - INFO - Database created successfully.
+2023-08-13 18:26:21,434 - INFO - Data ingestion successful. Number of rows: 1000000

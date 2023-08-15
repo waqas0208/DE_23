@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Aggregation Results</title>
+</head>
+<body>
+    <h1>Data Aggregation Results</h1>
+    <h2>Aggregated Data:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Mean Transaction Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in aggregated_data %}
+            <tr>
+                <td>{{ row['tstmp'] }}</td>
+                <td>{{ row['transaction_amount'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

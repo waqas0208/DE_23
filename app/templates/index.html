@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Processing Web App</title>
+    <style>
+        body {
+            background-color: rgb(44, 43, 43);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .welcome-box {
+            background-color: rgb(78, 172, 248);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 5px 5px 10px rgba(17, 17, 65, 0.751);
+        }
+        .welcome-text {
+            font-family: Helvetica, sans-serif;
+            font-size: 64px;
+            font-weight: bold;
+            color: white; /* Set font color to white */
+        }
+        .message {
+            font-size: 54px;
+            /* text-align: left; */
+            color: white; /* Set font color to white */
+        }
+        .options-container {
+            display: flex;
+            /* flex-direction: column; */
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .clickable-button {
+            background-color: rgb(247, 247, 113);
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 42px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-box">
+        <div class="welcome-text">Welcome to the Data Processing Web App</div>
+        <div class="message">Please select one option:</div>
+        <div class="options-container">
+            <a href="/data_ingestion_results" class="clickable-button">Data Ingestion</a>
+            <a href="/preprocessed_data_results" class="clickable-button">Preprocessed Data</a>
+            <a href="/data_aggregation_results" class="clickable-button">Data Aggregation</a>
+        </div>
+    </div>
+</body>
+</html>

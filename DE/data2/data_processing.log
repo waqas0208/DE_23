@@ -1,0 +1,72 @@
+INFO:root:Step 1: Data Ingestion
+INFO:root:Time taken: 6.930290937423706 seconds
+INFO:root:Step 2: Data Preprocessing
+INFO:root:Time taken: 1.233280897140503 seconds
+INFO:root:Step 3: Data Aggregation
+INFO:root:Time taken: 9.422423362731934 seconds
+INFO:root:Step 4: Data Validation and Quality Checks
+WARNING:root:Data types mismatch found in the data.
+INFO:root:Time taken: 2.761500597000122 seconds
+INFO:root:Step 5: Data Storage and Retrieval
+INFO:root:First 5 lines from the database:
+INFO:root:('2020-01-01 00:00:10', 98732.18)
+INFO:root:('2020-01-01 00:00:18', 55898.21)
+INFO:root:('2020-01-01 00:04:03', 6849.49)
+INFO:root:('2020-01-01 00:13:10', 89249.78)
+INFO:root:('2020-01-01 00:15:01', 85100.7)
+INFO:root:Time taken: 12.004233837127686 seconds
+INFO:root:Step 6: Data Visualization
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:root:Step 1: Data Ingestion
+INFO:root:Time taken: 6.382485389709473 seconds
+INFO:root:Step 2: Data Preprocessing
+INFO:root:Time taken: 1.0085797309875488 seconds
+INFO:root:Step 3: Data Aggregation
+INFO:root:Time taken: 10.839101791381836 seconds
+INFO:root:Step 4: Data Validation and Quality Checks
+WARNING:root:Data types mismatch found in the data.
+WARNING:root:account_number         object
+transaction_amount    float64
+tstmp                  object
+dtype: object
+INFO:root:Time taken: 4.671276092529297 seconds
+INFO:root:Step 5: Data Storage and Retrieval
+INFO:root:Column names:
+INFO:root:Index(['tstmp', 'transaction_amount'], dtype='object')
+INFO:root:First 5 lines from the database:
+INFO:root:('2020-01-01 00:00:10', 98732.18)
+INFO:root:('2020-01-01 00:00:18', 55898.21)
+INFO:root:('2020-01-01 00:04:03', 6849.49)
+INFO:root:('2020-01-01 00:13:10', 89249.78)
+INFO:root:('2020-01-01 00:15:01', 85100.7)
+INFO:root:Time taken: 11.731478214263916 seconds
+INFO:root:Step 6: Data Visualization
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:root:Step 1: Data Ingestion
+INFO:root:Time taken: 3.7855918407440186 seconds
+INFO:root:Step 2: Data Preprocessing
+INFO:root:Time taken: 0.5382208824157715 seconds
+INFO:root:Step 3: Data Aggregation
+INFO:root:Time taken: 6.220049619674683 seconds
+INFO:root:Step 4: Data Validation and Quality Checks
+WARNING:root:Data types mismatch found in the data.
+WARNING:root:account_number         object
+transaction_amount    float64
+tstmp                  object
+dtype: object
+INFO:root:Time taken: 3.0345046520233154 seconds
+INFO:root:Step 5: Data Storage and Retrieval
+INFO:root:Column names:
+INFO:root:Index(['tstmp', 'transaction_amount'], dtype='object')
+INFO:root:First 5 lines from the database:
+INFO:root:('2020-01-01 00:00:10', 98732.18)
+INFO:root:('2020-01-01 00:00:18', 55898.21)
+INFO:root:('2020-01-01 00:04:03', 6849.49)
+INFO:root:('2020-01-01 00:13:10', 89249.78)
+INFO:root:('2020-01-01 00:15:01', 85100.7)
+INFO:root:Time taken: 11.658779859542847 seconds
+INFO:root:Step 6: Data Visualization
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+INFO:matplotlib.category:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

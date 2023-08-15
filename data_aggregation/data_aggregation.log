@@ -1,0 +1,504 @@
+2023-08-12 15:44:01,299 - INFO - Step 3: Data Aggregation
+2023-08-12 15:44:01,308 - INFO - Data aggregation successful. Number of rows in aggregated data: 2
+2023-08-12 15:44:01,308 - INFO - Time taken: 0.00956273078918457 seconds
+2023-08-12 15:51:12,309 - INFO - Step 3: Data Aggregation
+2023-08-12 15:51:12,787 - INFO - Data aggregation successful. Number of rows in aggregated data: 2
+2023-08-12 15:51:12,787 - INFO - Time taken: 0.47744250297546387 seconds
+2023-08-13 09:32:03,832 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 09:32:03,832 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 09:32:03,858 - INFO -  * Restarting with stat
+2023-08-13 09:32:08,699 - WARNING -  * Debugger is active!
+2023-08-13 09:32:08,731 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 09:41:31,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 09:41:31,665 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 09:41:31,670 - INFO -  * Restarting with stat
+2023-08-13 09:41:36,896 - WARNING -  * Debugger is active!
+2023-08-13 09:41:36,918 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 09:44:09,109 - INFO - 127.0.0.1 - - [13/Aug/2023 09:44:09] "GET / HTTP/1.1" 200 -
+2023-08-13 09:44:09,624 - INFO - 127.0.0.1 - - [13/Aug/2023 09:44:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-13 09:44:13,515 - INFO - 127.0.0.1 - - [13/Aug/2023 09:44:13] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:44:45,584 - INFO - 127.0.0.1 - - [13/Aug/2023 09:44:45] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:46:18,731 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 09:46:18,993 - INFO -  * Restarting with stat
+2023-08-13 09:46:30,655 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 09:46:30,655 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 09:46:30,661 - INFO -  * Restarting with stat
+2023-08-13 09:46:35,877 - WARNING -  * Debugger is active!
+2023-08-13 09:46:35,897 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 09:46:51,559 - INFO - 127.0.0.1 - - [13/Aug/2023 09:46:51] "GET / HTTP/1.1" 200 -
+2023-08-13 09:46:54,324 - INFO - Database created successfully.
+2023-08-13 09:46:59,104 - INFO - Database created successfully.
+2023-08-13 09:47:10,058 - ERROR - Error occurred during data ingestion: Execution failed on sql 'SELECT name FROM sqlite_master WHERE type='table' AND name=?;': database is locked
+2023-08-13 09:47:10,063 - INFO - 127.0.0.1 - - [13/Aug/2023 09:47:10] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:47:13,491 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 09:47:13,550 - INFO - 127.0.0.1 - - [13/Aug/2023 09:47:13] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:50:49,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 09:50:49,029 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 09:50:49,036 - INFO -  * Restarting with stat
+2023-08-13 09:50:55,259 - WARNING -  * Debugger is active!
+2023-08-13 09:50:55,278 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 09:51:05,404 - INFO - 127.0.0.1 - - [13/Aug/2023 09:51:05] "GET / HTTP/1.1" 200 -
+2023-08-13 09:51:10,920 - INFO - Database created successfully.
+2023-08-13 09:51:26,593 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 09:51:26,656 - INFO - 127.0.0.1 - - [13/Aug/2023 09:51:26] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:53:27,404 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 09:53:27,405 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 09:53:27,415 - INFO -  * Restarting with stat
+2023-08-13 09:53:32,573 - WARNING -  * Debugger is active!
+2023-08-13 09:53:32,588 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 09:53:46,022 - INFO - Database created successfully.
+2023-08-13 09:53:54,980 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 09:53:55,070 - INFO - 127.0.0.1 - - [13/Aug/2023 09:53:55] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:55:44,792 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 09:55:44,792 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 09:55:44,799 - INFO -  * Restarting with stat
+2023-08-13 09:55:50,300 - WARNING -  * Debugger is active!
+2023-08-13 09:55:50,324 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 09:56:01,527 - INFO - 127.0.0.1 - - [13/Aug/2023 09:56:01] "GET / HTTP/1.1" 200 -
+2023-08-13 09:56:08,142 - INFO - Database created successfully.
+2023-08-13 09:56:16,020 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 09:56:16,105 - INFO - 127.0.0.1 - - [13/Aug/2023 09:56:16] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 09:59:29,332 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 09:59:29,805 - INFO -  * Restarting with stat
+2023-08-13 09:59:35,553 - WARNING -  * Debugger is active!
+2023-08-13 09:59:35,577 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:00:38,632 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:00:38,633 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:00:38,645 - INFO -  * Restarting with stat
+2023-08-13 10:00:43,590 - WARNING -  * Debugger is active!
+2023-08-13 10:00:43,618 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:00:55,951 - INFO - 127.0.0.1 - - [13/Aug/2023 10:00:55] "GET / HTTP/1.1" 200 -
+2023-08-13 10:01:01,298 - INFO - Database created successfully.
+2023-08-13 10:01:17,350 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 10:01:21,705 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 10:01:21,723 - INFO - Step 3: Data Aggregation
+2023-08-13 10:01:21,786 - INFO - Data aggregation successful. Number of rows in aggregated data: 791
+2023-08-13 10:01:21,787 - INFO - Time taken: 0.06199955940246582 seconds
+2023-08-13 10:01:21,969 - INFO - 127.0.0.1 - - [13/Aug/2023 10:01:21] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 10:08:47,270 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:08:47,271 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:08:47,278 - INFO -  * Restarting with stat
+2023-08-13 10:08:53,153 - WARNING -  * Debugger is active!
+2023-08-13 10:08:53,168 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:09:03,392 - INFO - 127.0.0.1 - - [13/Aug/2023 10:09:03] "GET / HTTP/1.1" 200 -
+2023-08-13 10:10:50,029 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:10:50,030 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:10:50,039 - INFO -  * Restarting with stat
+2023-08-13 10:10:55,001 - WARNING -  * Debugger is active!
+2023-08-13 10:10:55,022 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:11:04,817 - INFO - 127.0.0.1 - - [13/Aug/2023 10:11:04] "GET / HTTP/1.1" 200 -
+2023-08-13 10:11:10,476 - INFO - Database created successfully.
+2023-08-13 10:11:27,036 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 10:11:31,413 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 10:11:31,429 - INFO - Step 3: Data Aggregation
+2023-08-13 10:11:31,486 - INFO - Data aggregation successful. Number of rows in aggregated data: 791
+2023-08-13 10:11:31,486 - INFO - Time taken: 0.05699920654296875 seconds
+2023-08-13 10:11:31,641 - INFO - 127.0.0.1 - - [13/Aug/2023 10:11:31] "POST /process_data HTTP/1.1" 200 -
+2023-08-13 10:13:58,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:13:58,237 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:13:58,245 - INFO -  * Restarting with stat
+2023-08-13 10:14:02,704 - WARNING -  * Debugger is active!
+2023-08-13 10:14:02,719 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:14:13,493 - INFO - 127.0.0.1 - - [13/Aug/2023 10:14:13] "GET / HTTP/1.1" 200 -
+2023-08-13 10:14:34,491 - INFO - 127.0.0.1 - - [13/Aug/2023 10:14:34] "GET / HTTP/1.1" 200 -
+2023-08-13 10:14:42,995 - INFO - 127.0.0.1 - - [13/Aug/2023 10:14:42] "GET / HTTP/1.1" 200 -
+2023-08-13 10:14:54,495 - INFO - 127.0.0.1 - - [13/Aug/2023 10:14:54] "GET / HTTP/1.1" 200 -
+2023-08-13 10:14:55,443 - INFO - 127.0.0.1 - - [13/Aug/2023 10:14:55] "GET / HTTP/1.1" 200 -
+2023-08-13 10:15:32,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:15:32,015 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:15:32,024 - INFO -  * Restarting with stat
+2023-08-13 10:15:36,445 - WARNING -  * Debugger is active!
+2023-08-13 10:15:36,461 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:16:12,714 - INFO - 127.0.0.1 - - [13/Aug/2023 10:16:12] "GET / HTTP/1.1" 200 -
+2023-08-13 10:20:31,156 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:20:31,157 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:20:31,165 - INFO -  * Restarting with stat
+2023-08-13 10:20:37,387 - WARNING -  * Debugger is active!
+2023-08-13 10:20:37,403 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:20:49,112 - INFO - 127.0.0.1 - - [13/Aug/2023 10:20:49] "GET / HTTP/1.1" 200 -
+2023-08-13 10:25:06,603 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:25:06,605 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:25:06,613 - INFO -  * Restarting with stat
+2023-08-13 10:25:11,697 - WARNING -  * Debugger is active!
+2023-08-13 10:25:11,715 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:25:22,010 - INFO - 127.0.0.1 - - [13/Aug/2023 10:25:22] "GET / HTTP/1.1" 200 -
+2023-08-13 10:25:38,964 - INFO - 127.0.0.1 - - [13/Aug/2023 10:25:38] "[33mGET /data_ingestion_results HTTP/1.1[0m" 404 -
+2023-08-13 10:35:23,644 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:35:23,645 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:35:23,651 - INFO -  * Restarting with stat
+2023-08-13 10:35:29,125 - WARNING -  * Debugger is active!
+2023-08-13 10:35:29,141 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:35:38,913 - INFO - 127.0.0.1 - - [13/Aug/2023 10:35:38] "GET / HTTP/1.1" 200 -
+2023-08-13 10:36:25,044 - INFO - 127.0.0.1 - - [13/Aug/2023 10:36:25] "[33mGET /data_ingestion_results HTTP/1.1[0m" 404 -
+2023-08-13 10:36:40,946 - INFO - 127.0.0.1 - - [13/Aug/2023 10:36:40] "[33mGET /preprocessed_data_results HTTP/1.1[0m" 404 -
+2023-08-13 10:36:44,840 - INFO - 127.0.0.1 - - [13/Aug/2023 10:36:44] "[33mGET /data_aggregation_results HTTP/1.1[0m" 404 -
+2023-08-13 10:36:48,340 - INFO - 127.0.0.1 - - [13/Aug/2023 10:36:48] "[33mGET /error HTTP/1.1[0m" 404 -
+2023-08-13 10:37:00,569 - INFO - 127.0.0.1 - - [13/Aug/2023 10:37:00] "[33mGET /data_ingestion_results HTTP/1.1[0m" 404 -
+2023-08-13 10:41:48,311 - INFO - 127.0.0.1 - - [13/Aug/2023 10:41:48] "GET / HTTP/1.1" 200 -
+2023-08-13 10:41:48,873 - INFO - 127.0.0.1 - - [13/Aug/2023 10:41:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-13 10:41:50,135 - INFO - 127.0.0.1 - - [13/Aug/2023 10:41:50] "[33mGET /data_ingestion_results HTTP/1.1[0m" 404 -
+2023-08-13 10:46:31,771 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:46:31,772 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:46:31,788 - INFO -  * Restarting with stat
+2023-08-13 10:46:37,289 - WARNING -  * Debugger is active!
+2023-08-13 10:46:37,307 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:46:47,650 - INFO - 127.0.0.1 - - [13/Aug/2023 10:46:47] "GET / HTTP/1.1" 200 -
+2023-08-13 10:46:59,332 - INFO - 127.0.0.1 - - [13/Aug/2023 10:46:59] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 10:47:01,336 - INFO - 127.0.0.1 - - [13/Aug/2023 10:47:01] "GET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-13 10:47:01,337 - INFO - 127.0.0.1 - - [13/Aug/2023 10:47:01] "GET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-13 10:47:01,493 - INFO - 127.0.0.1 - - [13/Aug/2023 10:47:01] "GET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-13 10:47:01,582 - INFO - 127.0.0.1 - - [13/Aug/2023 10:47:01] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 10:56:06,604 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:56:06,606 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:56:06,617 - INFO -  * Restarting with stat
+2023-08-13 10:56:12,379 - WARNING -  * Debugger is active!
+2023-08-13 10:56:12,394 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:56:22,686 - INFO - 127.0.0.1 - - [13/Aug/2023 10:56:22] "GET / HTTP/1.1" 200 -
+2023-08-13 10:56:25,712 - INFO - 127.0.0.1 - - [13/Aug/2023 10:56:25] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 10:56:27,859 - INFO - 127.0.0.1 - - [13/Aug/2023 10:56:27] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 10:56:27,869 - INFO - 127.0.0.1 - - [13/Aug/2023 10:56:27] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 10:56:27,923 - INFO - 127.0.0.1 - - [13/Aug/2023 10:56:27] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 10:59:24,746 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 10:59:24,996 - INFO -  * Restarting with stat
+2023-08-13 10:59:36,758 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 10:59:36,759 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 10:59:36,772 - INFO -  * Restarting with stat
+2023-08-13 10:59:42,302 - WARNING -  * Debugger is active!
+2023-08-13 10:59:42,320 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 10:59:52,884 - INFO - 127.0.0.1 - - [13/Aug/2023 10:59:52] "GET / HTTP/1.1" 200 -
+2023-08-13 11:00:07,604 - INFO - 127.0.0.1 - - [13/Aug/2023 11:00:07] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 11:12:18,855 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:12:18,857 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:12:18,874 - INFO -  * Restarting with stat
+2023-08-13 11:12:25,305 - WARNING -  * Debugger is active!
+2023-08-13 11:12:25,319 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:12:35,912 - INFO - 127.0.0.1 - - [13/Aug/2023 11:12:35] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 11:12:41,711 - INFO - 127.0.0.1 - - [13/Aug/2023 11:12:41] "GET / HTTP/1.1" 200 -
+2023-08-13 11:12:50,628 - INFO - 127.0.0.1 - - [13/Aug/2023 11:12:50] "GET / HTTP/1.1" 200 -
+2023-08-13 11:12:58,153 - INFO - 127.0.0.1 - - [13/Aug/2023 11:12:58] "GET /error HTTP/1.1" 200 -
+2023-08-13 11:13:02,179 - INFO - 127.0.0.1 - - [13/Aug/2023 11:13:02] "GET /data_aggregation_results HTTP/1.1" 200 -
+2023-08-13 11:13:05,623 - INFO - 127.0.0.1 - - [13/Aug/2023 11:13:05] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 11:13:18,838 - INFO - 127.0.0.1 - - [13/Aug/2023 11:13:18] "GET / HTTP/1.1" 200 -
+2023-08-13 11:13:22,873 - INFO - 127.0.0.1 - - [13/Aug/2023 11:13:22] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 11:18:20,174 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:18:20,175 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:18:20,182 - INFO -  * Restarting with stat
+2023-08-13 11:18:24,538 - WARNING -  * Debugger is active!
+2023-08-13 11:18:24,553 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:18:34,247 - INFO - 127.0.0.1 - - [13/Aug/2023 11:18:34] "GET / HTTP/1.1" 200 -
+2023-08-13 11:18:37,645 - INFO - 127.0.0.1 - - [13/Aug/2023 11:18:37] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 11:20:44,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:20:44,409 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:20:44,419 - INFO -  * Restarting with stat
+2023-08-13 11:20:48,711 - WARNING -  * Debugger is active!
+2023-08-13 11:20:48,724 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:20:58,677 - INFO - 127.0.0.1 - - [13/Aug/2023 11:20:58] "GET / HTTP/1.1" 200 -
+2023-08-13 11:21:02,640 - INFO - 127.0.0.1 - - [13/Aug/2023 11:21:02] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:21:04,689 - INFO - 127.0.0.1 - - [13/Aug/2023 11:21:04] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:21:04,699 - INFO - 127.0.0.1 - - [13/Aug/2023 11:21:04] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:21:04,863 - INFO - 127.0.0.1 - - [13/Aug/2023 11:21:04] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:21:04,974 - INFO - 127.0.0.1 - - [13/Aug/2023 11:21:04] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:22:01,447 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 11:22:01,790 - INFO -  * Restarting with stat
+2023-08-13 11:22:05,987 - WARNING -  * Debugger is active!
+2023-08-13 11:22:06,002 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:28:52,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:28:52,340 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:28:52,351 - INFO -  * Restarting with stat
+2023-08-13 11:28:57,676 - WARNING -  * Debugger is active!
+2023-08-13 11:28:57,697 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:29:07,862 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:07] "GET / HTTP/1.1" 200 -
+2023-08-13 11:29:13,390 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:13] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:29:15,202 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:15] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:29:15,219 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:15] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:29:15,276 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:15] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:29:21,731 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:21] "[35m[1mGET /preprocessed_data_results HTTP/1.1[0m" 500 -
+2023-08-13 11:29:21,821 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:21] "GET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-13 11:29:21,835 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:21] "GET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-13 11:29:21,961 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:21] "GET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-13 11:29:22,096 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:22] "[36mGET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:29:27,089 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:27] "[35m[1mGET /data_aggregation_results HTTP/1.1[0m" 500 -
+2023-08-13 11:29:27,169 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:27] "GET /data_aggregation_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-13 11:29:27,254 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:27] "GET /data_aggregation_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-13 11:29:27,342 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:27] "GET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-13 11:29:27,456 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:27] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:29:30,355 - INFO - 127.0.0.1 - - [13/Aug/2023 11:29:30] "[33mGET /success HTTP/1.1[0m" 404 -
+2023-08-13 11:32:21,119 - INFO -  * Detected change in 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 11:32:21,425 - INFO -  * Restarting with stat
+2023-08-13 11:32:26,900 - WARNING -  * Debugger is active!
+2023-08-13 11:32:26,923 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:34:55,740 - INFO -  * Detected change in 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 11:34:55,984 - INFO -  * Restarting with stat
+2023-08-13 11:38:25,248 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:38:25,381 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:38:25,381 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:38:25,388 - INFO -  * Restarting with stat
+2023-08-13 11:38:35,554 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:38:35,638 - WARNING -  * Debugger is active!
+2023-08-13 11:38:35,659 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:38:46,841 - INFO - 127.0.0.1 - - [13/Aug/2023 11:38:46] "GET / HTTP/1.1" 200 -
+2023-08-13 11:38:57,098 - INFO - 127.0.0.1 - - [13/Aug/2023 11:38:57] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:38:58,959 - INFO - 127.0.0.1 - - [13/Aug/2023 11:38:58] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:38:58,974 - INFO - 127.0.0.1 - - [13/Aug/2023 11:38:58] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:38:59,036 - INFO - 127.0.0.1 - - [13/Aug/2023 11:38:59] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:40:07,624 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:40:07,739 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:40:07,740 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:40:07,749 - INFO -  * Restarting with stat
+2023-08-13 11:40:17,266 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:40:17,352 - WARNING -  * Debugger is active!
+2023-08-13 11:40:17,370 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:40:28,989 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:28] "GET / HTTP/1.1" 200 -
+2023-08-13 11:40:42,327 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:42] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:40:44,204 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:44] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:40:44,214 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:44] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:40:44,271 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:44] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:40:50,957 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:50] "[35m[1mGET /preprocessed_data_results HTTP/1.1[0m" 500 -
+2023-08-13 11:40:51,045 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:51] "[36mGET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:40:51,097 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:51] "[36mGET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:40:51,198 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:51] "[36mGET /preprocessed_data_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:40:57,337 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:57] "[35m[1mGET /data_aggregation_results HTTP/1.1[0m" 500 -
+2023-08-13 11:40:57,419 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:57] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:40:57,437 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:57] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:40:57,549 - INFO - 127.0.0.1 - - [13/Aug/2023 11:40:57] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:43:36,577 - INFO -  * Detected change in 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 11:43:36,841 - INFO -  * Restarting with stat
+2023-08-13 11:43:51,862 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:47:41,448 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:47:41,578 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:47:41,579 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:47:41,586 - INFO -  * Restarting with stat
+2023-08-13 11:47:50,154 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:47:50,195 - WARNING -  * Debugger is active!
+2023-08-13 11:47:50,212 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:48:00,604 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:00] "GET / HTTP/1.1" 200 -
+2023-08-13 11:48:04,185 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:04] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:48:06,143 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:06] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:48:06,152 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:06] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:48:06,313 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:06] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:48:13,952 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:13] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 11:48:17,593 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:17] "[35m[1mGET /data_aggregation_results HTTP/1.1[0m" 500 -
+2023-08-13 11:48:17,698 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:17] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:48:17,713 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:17] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:48:17,802 - INFO - 127.0.0.1 - - [13/Aug/2023 11:48:17] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:50:14,466 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:50:14,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:50:14,605 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:50:14,611 - INFO -  * Restarting with stat
+2023-08-13 11:50:25,959 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:50:26,017 - WARNING -  * Debugger is active!
+2023-08-13 11:50:26,032 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:51:45,854 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:51:45,955 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:51:45,956 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:51:45,962 - INFO -  * Restarting with stat
+2023-08-13 11:51:54,401 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:51:54,450 - WARNING -  * Debugger is active!
+2023-08-13 11:51:54,470 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:52:05,167 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:05] "GET / HTTP/1.1" 200 -
+2023-08-13 11:52:10,408 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:10] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:52:12,170 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:12] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:52:12,180 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:12] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:52:12,231 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:12] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:52:16,201 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:16] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 11:52:21,336 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:21] "[35m[1mGET /data_aggregation_results HTTP/1.1[0m" 500 -
+2023-08-13 11:52:21,409 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:21] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:52:21,468 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:21] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:52:21,579 - INFO - 127.0.0.1 - - [13/Aug/2023 11:52:21] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:53:59,611 - INFO -  * Detected change in 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 11:53:59,870 - INFO -  * Restarting with stat
+2023-08-13 11:54:09,740 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:54:09,793 - WARNING -  * Debugger is active!
+2023-08-13 11:54:09,809 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:54:34,395 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:54:34,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 11:54:34,605 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 11:54:34,615 - INFO -  * Restarting with stat
+2023-08-13 11:54:43,189 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 11:54:43,254 - WARNING -  * Debugger is active!
+2023-08-13 11:54:43,273 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 11:54:53,988 - INFO - 127.0.0.1 - - [13/Aug/2023 11:54:53] "GET / HTTP/1.1" 200 -
+2023-08-13 11:55:14,848 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:14] "GET / HTTP/1.1" 200 -
+2023-08-13 11:55:22,273 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:22] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 11:55:24,001 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:24] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:55:24,009 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:24] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:55:24,150 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:24] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 11:55:30,358 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:30] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 11:55:37,940 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:37] "[35m[1mGET /data_aggregation_results HTTP/1.1[0m" 500 -
+2023-08-13 11:55:38,021 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:38] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 11:55:38,032 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:38] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 11:55:38,205 - INFO - 127.0.0.1 - - [13/Aug/2023 11:55:38] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 12:00:39,018 - INFO -  * Detected change in 'c:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 12:00:39,312 - INFO -  * Restarting with stat
+2023-08-13 12:00:49,784 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:00:49,831 - WARNING -  * Debugger is active!
+2023-08-13 12:00:49,850 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:01:21,771 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:01:21,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 12:01:21,889 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 12:01:21,889 - INFO -  * Restarting with stat
+2023-08-13 12:01:30,815 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:01:30,855 - WARNING -  * Debugger is active!
+2023-08-13 12:01:30,870 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:01:41,090 - INFO - 127.0.0.1 - - [13/Aug/2023 12:01:41] "GET / HTTP/1.1" 200 -
+2023-08-13 12:01:46,635 - INFO - 127.0.0.1 - - [13/Aug/2023 12:01:46] "[35m[1mGET /data_ingestion_results HTTP/1.1[0m" 500 -
+2023-08-13 12:01:48,424 - INFO - 127.0.0.1 - - [13/Aug/2023 12:01:48] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 12:01:48,434 - INFO - 127.0.0.1 - - [13/Aug/2023 12:01:48] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 12:01:48,475 - INFO - 127.0.0.1 - - [13/Aug/2023 12:01:48] "[36mGET /data_ingestion_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 12:02:00,243 - INFO - 127.0.0.1 - - [13/Aug/2023 12:02:00] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 12:02:04,214 - INFO - 127.0.0.1 - - [13/Aug/2023 12:02:04] "[35m[1mGET /data_aggregation_results HTTP/1.1[0m" 500 -
+2023-08-13 12:02:04,279 - INFO - 127.0.0.1 - - [13/Aug/2023 12:02:04] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-13 12:02:04,295 - INFO - 127.0.0.1 - - [13/Aug/2023 12:02:04] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-13 12:02:04,407 - INFO - 127.0.0.1 - - [13/Aug/2023 12:02:04] "[36mGET /data_aggregation_results?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-13 12:04:25,866 - INFO - Database created successfully.
+2023-08-13 12:04:40,265 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:04:44,632 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:05:20,012 - INFO - Database created successfully.
+2023-08-13 12:05:25,604 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:05:29,594 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:05:49,021 - INFO - Database created successfully.
+2023-08-13 12:05:54,724 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:05:58,723 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:05:58,741 - INFO - Step 3: Data Aggregation
+2023-08-13 12:05:58,742 - ERROR - Error occurred during data aggregation: 'str' object has no attribute 'groupby'
+2023-08-13 12:05:58,744 - INFO - Time taken: 0.002003908157348633 seconds
+2023-08-13 12:13:21,766 - INFO - Database created successfully.
+2023-08-13 12:13:36,548 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:13:40,608 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:13:40,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 12:13:40,726 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 12:13:40,732 - INFO -  * Restarting with stat
+2023-08-13 12:13:49,428 - INFO - Database created successfully.
+2023-08-13 12:13:55,599 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:13:59,858 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:13:59,920 - WARNING -  * Debugger is active!
+2023-08-13 12:13:59,939 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:14:11,146 - INFO - 127.0.0.1 - - [13/Aug/2023 12:14:11] "GET / HTTP/1.1" 200 -
+2023-08-13 12:15:16,368 - INFO - 127.0.0.1 - - [13/Aug/2023 12:15:16] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 12:15:23,492 - INFO - 127.0.0.1 - - [13/Aug/2023 12:15:23] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 12:15:27,174 - INFO - 127.0.0.1 - - [13/Aug/2023 12:15:27] "GET /data_aggregation_results HTTP/1.1" 200 -
+2023-08-13 12:20:18,489 - INFO - Database created successfully.
+2023-08-13 12:20:32,612 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:20:36,880 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:20:36,998 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 12:20:36,999 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 12:20:37,007 - INFO -  * Restarting with stat
+2023-08-13 12:20:45,463 - INFO - Database created successfully.
+2023-08-13 12:20:50,942 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:20:55,061 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:20:55,120 - WARNING -  * Debugger is active!
+2023-08-13 12:20:55,141 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:21:07,046 - INFO - 127.0.0.1 - - [13/Aug/2023 12:21:07] "GET / HTTP/1.1" 200 -
+2023-08-13 12:21:11,436 - INFO - 127.0.0.1 - - [13/Aug/2023 12:21:11] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 12:21:15,088 - INFO - 127.0.0.1 - - [13/Aug/2023 12:21:15] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 12:21:19,234 - INFO - 127.0.0.1 - - [13/Aug/2023 12:21:19] "GET /data_aggregation_results HTTP/1.1" 200 -
+2023-08-13 12:23:26,569 - INFO - Database created successfully.
+2023-08-13 12:23:34,200 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:23:38,645 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:23:38,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 12:23:38,798 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 12:23:38,807 - INFO -  * Restarting with stat
+2023-08-13 12:23:46,612 - INFO - Database created successfully.
+2023-08-13 12:23:52,341 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:23:56,421 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:23:56,481 - WARNING -  * Debugger is active!
+2023-08-13 12:23:56,507 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:24:07,489 - INFO - 127.0.0.1 - - [13/Aug/2023 12:24:07] "GET / HTTP/1.1" 200 -
+2023-08-13 12:28:43,290 - INFO - Database created successfully.
+2023-08-13 12:28:58,455 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:29:02,404 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:29:02,508 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-13 12:29:02,508 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-13 12:29:02,514 - INFO -  * Restarting with stat
+2023-08-13 12:29:09,465 - INFO - Database created successfully.
+2023-08-13 12:29:14,972 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:29:19,010 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:29:19,067 - WARNING -  * Debugger is active!
+2023-08-13 12:29:19,091 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:29:30,070 - INFO - 127.0.0.1 - - [13/Aug/2023 12:29:30] "GET / HTTP/1.1" 200 -
+2023-08-13 12:29:33,704 - INFO - 127.0.0.1 - - [13/Aug/2023 12:29:33] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 12:29:53,682 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\app\\app.py', reloading
+2023-08-13 12:29:54,010 - INFO -  * Restarting with stat
+2023-08-13 12:30:02,245 - INFO - Database created successfully.
+2023-08-13 12:30:07,990 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:30:12,020 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:30:12,099 - WARNING -  * Debugger is active!
+2023-08-13 12:30:12,127 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:52:29,265 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\data_ingestion_abs_path.py', reloading
+2023-08-13 12:52:30,144 - INFO -  * Restarting with stat
+2023-08-13 12:52:40,040 - INFO - Database created successfully.
+2023-08-13 12:53:01,592 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:53:06,349 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:53:06,427 - WARNING -  * Debugger is active!
+2023-08-13 12:53:06,460 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 12:57:04,422 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\data_ingestion_abs_path.py', reloading
+2023-08-13 12:57:05,148 - INFO -  * Restarting with stat
+2023-08-13 12:57:13,566 - INFO - Database created successfully.
+2023-08-13 12:57:20,200 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 12:57:24,845 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 12:57:24,902 - WARNING -  * Debugger is active!
+2023-08-13 12:57:24,921 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 13:04:40,138 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\data_ingestion_abs_path.py', reloading
+2023-08-13 13:04:40,637 - INFO -  * Restarting with stat
+2023-08-13 13:04:49,811 - INFO - Database created successfully.
+2023-08-13 13:05:07,346 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 13:05:12,367 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 13:05:12,464 - WARNING -  * Debugger is active!
+2023-08-13 13:05:12,489 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 13:07:13,759 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\data_ingestion_abs_path.py', reloading
+2023-08-13 13:07:14,107 - INFO -  * Restarting with stat
+2023-08-13 13:07:22,984 - INFO - Database created successfully.
+2023-08-13 13:07:30,586 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 13:07:36,535 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 13:07:36,628 - WARNING -  * Debugger is active!
+2023-08-13 13:07:36,654 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 13:10:06,725 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\data_ingestion_abs_path.py', reloading
+2023-08-13 13:10:07,254 - INFO -  * Restarting with stat
+2023-08-13 13:10:17,202 - INFO - Database created successfully.
+2023-08-13 13:10:27,337 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 13:10:32,139 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 13:10:32,214 - WARNING -  * Debugger is active!
+2023-08-13 13:10:32,238 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 13:18:03,051 - INFO -  * Detected change in 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_preprocessing\\data_preprocessing_abs_path.py', reloading
+2023-08-13 13:18:03,416 - INFO -  * Restarting with stat
+2023-08-13 13:18:11,256 - INFO - Database created successfully.
+2023-08-13 13:18:26,732 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-13 13:18:32,509 - INFO - Table 'preprocessed_data' created and populated successfully.
+2023-08-13 13:18:32,614 - WARNING -  * Debugger is active!
+2023-08-13 13:18:32,642 - INFO -  * Debugger PIN: 996-767-149
+2023-08-13 14:05:51,952 - INFO - 127.0.0.1 - - [13/Aug/2023 14:05:51] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 14:10:45,323 - INFO - 127.0.0.1 - - [13/Aug/2023 14:10:45] "GET /data_ingestion_results HTTP/1.1" 200 -
+2023-08-13 14:11:08,305 - INFO - 127.0.0.1 - - [13/Aug/2023 14:11:08] "GET /preprocessed_data_results HTTP/1.1" 200 -
+2023-08-13 14:11:26,817 - INFO - 127.0.0.1 - - [13/Aug/2023 14:11:26] "GET /data_aggregation_results HTTP/1.1" 200 -

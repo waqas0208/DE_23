@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Ingestion Results</title>
+</head>
+<body>
+    <h1>Data Ingestion Results</h1>
+    <h2>Ingested Data:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Transaction Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in ingested_data %}
+            <tr>
+                <td>{{ row['tstmp'] }}</td>
+                <td>{{ row['transaction_amount'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

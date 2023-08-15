@@ -1,0 +1,1403 @@
+Microsoft Windows [Version 10.0.19045.3324]
+(c) Microsoft Corporation. Alle Rechte vorbehalten.
+
+C:\Users\waqas>cd "C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation\"
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation>docker build -t data_aggregation_microservice .
+[+] Building 0.4s (2/2) FINISHED
+ => [internal] load build definition from Dockerfile                                                               0.3s
+ => => transferring dockerfile: 2B                                                                                 0.0s
+ => [internal] load .dockerignore                                                                                  0.3s
+ => => transferring context: 2B                                                                                    0.0s
+ERROR: failed to solve: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount1863378875/Dockerfile: no such file or directory
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation>
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation>docker build -t data_aggregation_microservice .
+[+] Building 53.8s (9/9) FINISHED
+ => [internal] load build definition from Dockerfile                                                               0.1s
+ => => transferring dockerfile: 430B                                                                               0.0s
+ => [internal] load .dockerignore                                                                                  0.1s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                 4.2s
+ => [1/4] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae435  15.5s
+ => => resolve docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae4359  0.1s
+ => => sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8 1.86kB / 1.86kB                     0.0s
+ => => sha256:2c1ee0ef61c4e3a08e6c184ed967b76e4f0835ec1e43e1c99979b1745c333cf5 1.37kB / 1.37kB                     0.0s
+ => => sha256:99f5de4b63d94989ed9cea973a7cac10d0cbc1f62eb06e6f6a11e2e9a1a4df6d 6.96kB / 6.96kB                     0.0s
+ => => sha256:648e0aadf75ac2ef63c5390adc6dc14fde37a5ad88c2870ea604df0a9c0eb4e5 29.12MB / 29.12MB                   6.4s
+ => => sha256:81f178b24f84998e2b94c64ab8d52a8bab34bce568876b405c5aa1cacb757465 3.50MB / 3.50MB                     3.2s
+ => => sha256:092ea8b03f125e4fd852ee33544d8d63138250a1d49737fa45d5b72e4e18c540 18.80MB / 18.80MB                   2.6s
+ => => sha256:3be5e507bb5871008f0ca993e4557023ff9d96d256a0cd882c36f77c37929dfe 244B / 244B                         2.9s
+ => => sha256:771c31d43e49271286b8fbf2c77f9123bf87a27b827304b4de64d6f23358e714 3.14MB / 3.14MB                     4.2s
+ => => extracting sha256:648e0aadf75ac2ef63c5390adc6dc14fde37a5ad88c2870ea604df0a9c0eb4e5                          2.7s
+ => => extracting sha256:81f178b24f84998e2b94c64ab8d52a8bab34bce568876b405c5aa1cacb757465                          0.7s
+ => => extracting sha256:092ea8b03f125e4fd852ee33544d8d63138250a1d49737fa45d5b72e4e18c540                          2.9s
+ => => extracting sha256:3be5e507bb5871008f0ca993e4557023ff9d96d256a0cd882c36f77c37929dfe                          0.0s
+ => => extracting sha256:771c31d43e49271286b8fbf2c77f9123bf87a27b827304b4de64d6f23358e714                          0.6s
+ => [internal] load build context                                                                                  0.2s
+ => => transferring context: 2.50kB                                                                                0.0s
+ => [2/4] WORKDIR /app                                                                                             1.2s
+ => [3/4] COPY data_aggregation_abs_path.py /app/                                                                  0.2s
+ => [4/4] RUN pip install pandas                                                                                  30.1s
+ => exporting to image                                                                                             2.5s
+ => => exporting layers                                                                                            2.5s
+ => => writing image sha256:ca3b1915178d88a34de61bff0dc2b7b774f3f583de281205397f14cbdd806d60                       0.0s
+ => => naming to docker.io/library/data_aggregation_microservice                                                   0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation>docker run -d data_aggregation_microservice
+3aff7393d5345fa9c00a97b9cfeb07b915fc12577d3c8006241758db707e1430
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation>docker logs <container_id>
+Syntaxfehler.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_aggregation>docker logs 3aff7393d5345fa9c00a97b9cfeb07b915fc12577d3c8006241758db707e1430
+Aggregated Data:
+        tstmp  transaction_amount
+0  2022-01-01               150.0
+1  2022-01-02               200.0
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\da[+] Building 2.2s (7/8)
+ => [internal] load build definition from Dockerfile                                                               0.6s
+ => => transferring dockerfile: 408B                                                                               0.0sd => [internal] load .dockerignore                                                                                  0.5s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                 1.2sa => [internal] load build context                                                                                  0.3s
+ => => transferring context: 2B                                                                                    0.0s
+ => [1/4] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae4359  0.0s
+ => CACHED [2/4] WORKDIR /app                                                                                      0.0s
+ => ERROR [3/4] COPY data_ingestion.py /app/                                                                       0.0s
+------
+ > [3/4] COPY data_ingestion.py /app/:
+------
+Dockerfile:8
+--------------------
+   6 |
+   7 |     # Copy the script to the container
+   8 | >>> COPY data_ingestion.py /app/
+   9 |
+  10 |     # Install pandas and sqlite3 (required dependencies)
+--------------------
+ERROR: failed to solve: failed to compute cache key: failed to calculate checksum of ref moby::2wggbyt2h60rv2zggl7j68owc: "/data_ingestion.py": not found
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\da[+] Building 38.0s (9/9) FINISHED
+ => [internal] load .dockerignore                                                                                  0.1s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load build definition from Dockerfile                                                               0.1s
+ => => transferring dockerfile: 426B                                                                               0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                 2.6s
+ => [1/4] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae4359  0.0s
+ => [internal] load build context                                                                                  0.0s
+ => => transferring context: 2.64kB                                                                                0.0s
+ => CACHED [2/4] WORKDIR /app                                                                                      0.0s
+ => [3/4] COPY data_ingestion_abs_path.py /app/                                                                    0.1s
+ => [4/4] RUN pip install pandas                                                                                  32.3s
+ => exporting to image                                                                                             2.8s
+ => => exporting layers                                                                                            2.7s
+ => => writing image sha256:d762238e945eb2a84edd2ed7837e1e3c8192e4b921256f3263857acc72015caa                       0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                     0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+7fb524ec3eae4511cdf7d7fe9530002b54bfe049a61c63600c56d0347681f33c
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs 7fb524ec3eae4511cdf7d7fe9530002b54bfe049a61c63600c56d0347681f33c
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 68, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 23, in data_ingestion
+    data = pd.read_csv(file_path)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data2ingest\\financial_data.csv'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 37.2s (10/10) FINISHED
+ => [internal] load .dockerignore                                                                                  0.2s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load build definition from Dockerfile                                                               0.1s
+ => => transferring dockerfile: 456B                                                                               0.1s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                 0.9s
+ => [internal] load build context                                                                                  2.4s
+ => => transferring context: 52.90MB                                                                               2.3s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae4359  0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                      0.0s
+ => CACHED [3/5] COPY data_ingestion_abs_path.py /app/                                                             0.0s
+ => [4/5] COPY financial_data.csv /app/                                                                            0.7s
+ => [5/5] RUN pip install pandas                                                                                  30.2s
+ => exporting to image                                                                                             2.8s
+ => => exporting layers                                                                                            2.8s
+ => => writing image sha256:c6184a8569de526e945523fd630781e76db4a081665cf969d173deef98fd136c                       0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                     0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+e81ed23effc76c3a8c257aec9e586fb63bbfb464dc8064f215b0e6f8731dd4f5
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs e81ed23effc76c3a8c257aec9e586fb63bbfb464dc8064f215b0e6f8731dd4f5
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 68, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 23, in data_ingestion
+    data = pd.read_csv(file_path)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data2ingest\\financial_data.csv'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 42.5s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                                               0.2s
+ => => transferring dockerfile: 456B                                                                               0.0s
+ => [internal] load .dockerignore                                                                                  0.1s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                 2.1s
+ => [internal] load build context                                                                                  0.0s
+ => => transferring context: 2.68kB                                                                                0.0s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae4359  0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                      0.0s
+ => [3/5] COPY data_ingestion_abs_path.py /app/                                                                    0.2s
+ => [4/5] COPY financial_data.csv /app/                                                                            0.4s
+ => [5/5] RUN pip install pandas                                                                                  36.6s
+ => exporting to image                                                                                             2.9s
+ => => exporting layers                                                                                            2.9s
+ => => writing image sha256:9994ec00a8d9c2800cff1d0c263d2703659f20c2be1e91b089a4dc38e7830e65                       0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                     0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+4790b34d9b05ffa545f6e92167030f44f0180eed6d17ca8f59172bde4f031235
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs 4790b34d9b05ffa545f6e92167030f44f0180eed6d17ca8f59172bde4f031235
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 68, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 23, in data_ingestion
+    data = pd.read_csv(file_path)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\financial_data.csv'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 34.7s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                                               0.1s
+ => => transferring dockerfile: 456B                                                                               0.0s
+ => [internal] load .dockerignore                                                                                  0.1s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                 3.2s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae4359  0.0s
+ => [internal] load build context                                                                                  0.0s
+ => => transferring context: 2.72kB                                                                                0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                      0.0s
+ => [3/5] COPY data_ingestion_abs_path.py /app/                                                                    0.1s
+ => [4/5] COPY financial_data.csv /app/                                                                            0.6s
+ => [5/5] RUN pip install pandas                                                                                  28.0s
+ => exporting to image                                                                                             2.6s
+ => => exporting layers                                                                                            2.6s
+ => => writing image sha256:59b08923dbd445eb5a06b947942c2acf7f700f1ebaf4db687034fec9aede45b5                       0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                     0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+8146c836ad1c28cf4737037d8573e305c3267c7c00ed1ea98c194002a28092ef
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs 8146c836ad1c28cf4737037d8573e305c3267c7c00ed1ea98c194002a28092ef
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 69, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 23, in data_ingestion
+    data = pd.read_csv(file_path)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\financial_data.csv'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 3.5s (10/10) FINISHED
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 456B                                                                                                                                   0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                                                                     3.2s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8                                               0.0s
+ => [internal] load build context                                                                                                                                      0.0s
+ => => transferring context: 88B                                                                                                                                       0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                                                                          0.0s
+ => CACHED [3/5] COPY data_ingestion_abs_path.py /app/                                                                                                                 0.0s
+ => CACHED [4/5] COPY financial_data.csv /app/                                                                                                                         0.0s
+ => CACHED [5/5] RUN pip install pandas                                                                                                                                0.0s
+ => exporting to image                                                                                                                                                 0.1s
+ => => exporting layers                                                                                                                                                0.0s
+ => => writing image sha256:59b08923dbd445eb5a06b947942c2acf7f700f1ebaf4db687034fec9aede45b5                                                                           0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                                                                         0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+503636d13a2f07492a1e666eea711a54ecb8f29ef12aa274d2380a954de57b65
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs 503636d13a2f07492a1e666eea711a54ecb8f29ef12aa274d2380a954de57b65
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 69, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 23, in data_ingestion
+    data = pd.read_csv(file_path)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\waqas\\OneDrive - IU International University of Applied Sciences\\Dokumente\\MSc Data Science\\WS22-23\\DE\\data2\\data_ingestion\\financial_data.csv'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 40.6s (10/10) FINISHED
+ => [internal] load .dockerignore                                                                                                                                      0.2s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 456B                                                                                                                                   0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                                                                     1.2s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8                                               0.0s
+ => [internal] load build context                                                                                                                                      0.1s
+ => => transferring context: 2.54kB                                                                                                                                    0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                                                                          0.0s
+ => [3/5] COPY data_ingestion_abs_path.py /app/                                                                                                                        0.2s
+ => [4/5] COPY financial_data.csv /app/                                                                                                                                0.8s
+ => [5/5] RUN pip install pandas                                                                                                                                      35.1s
+ => exporting to image                                                                                                                                                 2.9s
+ => => exporting layers                                                                                                                                                2.9s
+ => => writing image sha256:3c6464f692105945458d8b9adc9d5bb9a2f428bd4ee705c69806a21107afb935                                                                           0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                                                                         0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+b968be1857445408a6858196c3ced3f83e7dfcd91e0e3fea97161a6354ef34de
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs b968be1857445408a6858196c3ced3f83e7dfcd91e0e3fea97161a6354ef34de
+ERROR:root:Error occurred during data ingestion: [Errno 2] No such file or directory: '/app/data_ingestion/data_ingestion.log'
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 72, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 20, in data_ingestion
+    logging.basicConfig(filename=log_file_path, level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+  File "/usr/local/lib/python3.8/logging/__init__.py", line 1988, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/usr/local/lib/python3.8/logging/__init__.py", line 1147, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.8/logging/__init__.py", line 1176, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/app/data_ingestion/data_ingestion.log'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 39.2s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 456B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                                                                     2.5s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8                                               0.0s
+ => [internal] load build context                                                                                                                                      0.1s
+ => => transferring context: 2.56kB                                                                                                                                    0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                                                                          0.0s
+ => [3/5] COPY data_ingestion_abs_path.py /app/                                                                                                                        0.1s
+ => [4/5] COPY financial_data.csv /app/                                                                                                                                0.6s
+ => [5/5] RUN pip install pandas                                                                                                                                      32.5s
+ => exporting to image                                                                                                                                                 3.1s
+ => => exporting layers                                                                                                                                                3.1s
+ => => writing image sha256:02e1b436bb172f343e859045e2bbb258fdd11d91f207772f0720c9e880350106                                                                           0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                                                                         0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+7afd6043c30d4991fe984ed11736d5a6f345f475e7f50a996a57df4987c045ca
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs 7afd6043c30d4991fe984ed11736d5a6f345f475e7f50a996a57df4987c045ca
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 74, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 23, in data_ingestion
+    data = pd.read_csv(file_path)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/usr/local/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/app/data_ingestion/financial_data.csv'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data_ingestion_microservice .
+[+] Building 41.1s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 456B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.2s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                                                                     1.6s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8                                               0.0s
+ => [internal] load build context                                                                                                                                      0.1s
+ => => transferring context: 2.38kB                                                                                                                                    0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                                                                          0.0s
+ => [3/5] COPY data_ingestion_abs_path.py /app/                                                                                                                        0.1s
+ => [4/5] COPY financial_data.csv /app/                                                                                                                                0.5s
+ => [5/5] RUN pip install pandas                                                                                                                                      35.4s
+ => exporting to image                                                                                                                                                 3.1s
+ => => exporting layers                                                                                                                                                3.1s
+ => => writing image sha256:aae06150fec2dfb97cd107eb4d0923374a65ac8b05ef004600677294dec1e5a6                                                                           0.0s
+ => => naming to docker.io/library/data_ingestion_microservice                                                                                                         0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -d data_ingestion_microservice
+4299170380cfe12dc99c21ca19a2003967a760a23f34824e1d205b5ab64ca64a
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker logs 4299170380cfe12dc99c21ca19a2003967a760a23f34824e1d205b5ab64ca64a
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>cd ..
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>cd .\data_preprocessing
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker build -t data_preprocessing_microservice .
+[+] Building 79.8s (11/11) FINISHED
+ => [internal] load .dockerignore                                                                                                                                      0.2s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                   0.3s
+ => => transferring dockerfile: 482B                                                                                                                                   0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                                                                     2.6s
+ => [1/6] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8                                               0.0s
+ => [internal] load build context                                                                                                                                      7.3s
+ => => transferring context: 132.36MB                                                                                                                                  7.2s
+ => CACHED [2/6] WORKDIR /app                                                                                                                                          0.0s
+ => [3/6] COPY data_preprocessing_abs_path.py /app/                                                                                                                    0.7s
+ => [4/6] COPY financial_data.csv /app/                                                                                                                                0.6s
+ => [5/6] COPY financial_data.db /app/                                                                                                                                 2.1s
+ => [6/6] RUN pip install pandas scikit-learn sqlalchemy                                                                                                              59.6s
+ => exporting to image                                                                                                                                                 6.4s
+ => => exporting layers                                                                                                                                                6.3s
+ => => writing image sha256:63034d48d90a9f261ac00c2e5ffcc5482987a98b93ff3a3aedcffcae9e242250                                                                           0.0s
+ => => naming to docker.io/library/data_preprocessing_microservice                                                                                                     0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d data_preprocessing_microservice
+8493fb18a83600e77157ce43681e80627164de75e6aabb9254fba3adb30d4353
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker logs 8493fb18a83600e77157ce43681e80627164de75e6aabb9254fba3adb30d4353
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker network create projectDE
+ef5038a34dd821f07a59c5be6daa0afa667bf1e7b773005ed8c480af4587dd45
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_ingestion_container --network projectDE data_ingestion_microservice
+253771ecc3ed6ab8a72cb58d0963ac995705dff53e552a0ab8ec286568d3d93c
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_processing_container --network projectDE data_processing_microservice
+Unable to find image 'data_processing_microservice:latest' locally
+docker: Error response from daemon: pull access denied for data_processing_microservice, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_processing_container --network projectDE data_processing_microservice
+Unable to find image 'data_processing_microservice:latest' locally
+docker: Error response from daemon: pull access denied for data_processing_microservice, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_aggregation_container --network projectDE data_aggregation_microservice
+4c4380774083a1195e81ef9c8cfb0950b2a6776540cded33101b26836d686650
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_preprocessing_container --network projectDE data_preprocessing_microservice
+8b1caebc322fabad5915b4da4102eddc47b5bcc677e67c1ebc44e916e9115b12
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker exec -it data_processing_container curl http://data_ingestion_container:port/api/endpoint
+Error response from daemon: No such container: data_processing_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker exec -it data_preprocessing_container curl http://data_ingestion_container:port/api/endpoint
+Error response from daemon: Container 8b1caebc322fabad5915b4da4102eddc47b5bcc677e67c1ebc44e916e9115b12 is not running
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_preprocessing_container --network projectDE data_preprocessing_microservice
+docker: Error response from daemon: Conflict. The container name "/data_preprocessing_container" is already in use by container "8b1caebc322fabad5915b4da4102eddc47b5bcc677e67c1ebc44e916e9115b12". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker run -d --name data_ingestion_container --network projectDE data_ingestion_microservice
+docker: Error response from daemon: Conflict. The container name "/data_ingestion_container" is already in use by container "253771ecc3ed6ab8a72cb58d0963ac995705dff53e552a0ab8ec286568d3d93c". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker start data_ingestion_container
+data_ingestion_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker start data_preprocessing_container
+data_preprocessing_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker logs data_ingestion_container
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>docker logs data_preprocessing_container
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_preprocessing>cd..
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_ingestion_container
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_preprocessing_container
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker exec -it data_ingestion_container /bin/sh
+Error response from daemon: Container 253771ecc3ed6ab8a72cb58d0963ac995705dff53e552a0ab8ec286568d3d93c is not running
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps -a
+CONTAINER ID   IMAGE                             COMMAND                  CREATED             STATUS                         PORTS     NAMES
+8b1caebc322f   data_preprocessing_microservice   "python data_preproc…"   7 minutes ago       Exited (0) 3 minutes ago                 data_preprocessing_container
+4c4380774083   data_aggregation_microservice     "python data_aggrega…"   8 minutes ago       Exited (0) 8 minutes ago                 data_aggregation_container
+253771ecc3ed   data_ingestion_microservice       "python data_ingesti…"   10 minutes ago      Exited (1) 3 minutes ago                 data_ingestion_container
+8493fb18a836   data_preprocessing_microservice   "python data_preproc…"   43 minutes ago      Exited (0) 42 minutes ago                stoic_fermat
+4299170380cf   data_ingestion_microservice       "python data_ingesti…"   52 minutes ago      Exited (1) 52 minutes ago                magical_visvesvaraya
+7afd6043c30d   02e1b436bb17                      "python data_ingesti…"   55 minutes ago      Exited (1) 55 minutes ago                blissful_snyder
+b968be185744   3c6464f69210                      "python data_ingesti…"   57 minutes ago      Exited (1) 57 minutes ago                elated_kowalevski
+503636d13a2f   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             gallant_joliot
+8146c836ad1c   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             festive_ritchie
+4790b34d9b05   9994ec00a8d9                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             infallible_lalande
+e81ed23effc7   c6184a8569de                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             elated_wiles
+7fb524ec3eae   d762238e945e                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             quizzical_hugle
+3aff7393d534   data_aggregation_microservice     "python data_aggrega…"   About an hour ago   Exited (0) About an hour ago             musing_chaplygin
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker start data_ingestion_container
+data_ingestion_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps -a
+CONTAINER ID   IMAGE                             COMMAND                  CREATED             STATUS                         PORTS     NAMES
+8b1caebc322f   data_preprocessing_microservice   "python data_preproc…"   7 minutes ago       Exited (0) 4 minutes ago                 data_preprocessing_container
+4c4380774083   data_aggregation_microservice     "python data_aggrega…"   9 minutes ago       Exited (0) 9 minutes ago                 data_aggregation_container
+253771ecc3ed   data_ingestion_microservice       "python data_ingesti…"   11 minutes ago      Up 4 seconds                             data_ingestion_container
+8493fb18a836   data_preprocessing_microservice   "python data_preproc…"   43 minutes ago      Exited (0) 43 minutes ago                stoic_fermat
+4299170380cf   data_ingestion_microservice       "python data_ingesti…"   53 minutes ago      Exited (1) 52 minutes ago                magical_visvesvaraya
+7afd6043c30d   02e1b436bb17                      "python data_ingesti…"   55 minutes ago      Exited (1) 55 minutes ago                blissful_snyder
+b968be185744   3c6464f69210                      "python data_ingesti…"   58 minutes ago      Exited (1) 58 minutes ago                elated_kowalevski
+503636d13a2f   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             gallant_joliot
+8146c836ad1c   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             festive_ritchie
+4790b34d9b05   9994ec00a8d9                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             infallible_lalande
+e81ed23effc7   c6184a8569de                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             elated_wiles
+7fb524ec3eae   d762238e945e                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             quizzical_hugle
+3aff7393d534   data_aggregation_microservice     "python data_aggrega…"   About an hour ago   Exited (0) About an hour ago             musing_chaplygin
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps -a
+CONTAINER ID   IMAGE                             COMMAND                  CREATED             STATUS                          PORTS     NAMES
+8b1caebc322f   data_preprocessing_microservice   "python data_preproc…"   9 minutes ago       Exited (0) 5 minutes ago                  data_preprocessing_container
+4c4380774083   data_aggregation_microservice     "python data_aggrega…"   10 minutes ago      Exited (0) 10 minutes ago                 data_aggregation_container
+253771ecc3ed   data_ingestion_microservice       "python data_ingesti…"   12 minutes ago      Exited (1) About a minute ago             data_ingestion_container
+8493fb18a836   data_preprocessing_microservice   "python data_preproc…"   45 minutes ago      Exited (0) 44 minutes ago                 stoic_fermat
+4299170380cf   data_ingestion_microservice       "python data_ingesti…"   54 minutes ago      Exited (1) 54 minutes ago                 magical_visvesvaraya
+7afd6043c30d   02e1b436bb17                      "python data_ingesti…"   57 minutes ago      Exited (1) 57 minutes ago                 blissful_snyder
+b968be185744   3c6464f69210                      "python data_ingesti…"   59 minutes ago      Exited (1) 59 minutes ago                 elated_kowalevski
+503636d13a2f   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              gallant_joliot
+8146c836ad1c   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              festive_ritchie
+4790b34d9b05   9994ec00a8d9                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              infallible_lalande
+e81ed23effc7   c6184a8569de                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              elated_wiles
+7fb524ec3eae   d762238e945e                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              quizzical_hugle
+3aff7393d534   data_aggregation_microservice     "python data_aggrega…"   About an hour ago   Exited (0) About an hour ago              musing_chaplygin
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_ingestion_container
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker start data_ingestion_container
+data_ingestion_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker start data_preprocessing_container
+data_preprocessing_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker start data_aggregation_container
+data_aggregation_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps -a
+CONTAINER ID   IMAGE                             COMMAND                  CREATED             STATUS                         PORTS     NAMES
+8b1caebc322f   data_preprocessing_microservice   "python data_preproc…"   16 minutes ago      Exited (0) 6 seconds ago                 data_preprocessing_container
+4c4380774083   data_aggregation_microservice     "python data_aggrega…"   17 minutes ago      Exited (0) 2 seconds ago                 data_aggregation_container
+253771ecc3ed   data_ingestion_microservice       "python data_ingesti…"   19 minutes ago      Exited (1) 16 seconds ago                data_ingestion_container
+8493fb18a836   data_preprocessing_microservice   "python data_preproc…"   52 minutes ago      Exited (0) 51 minutes ago                stoic_fermat
+4299170380cf   data_ingestion_microservice       "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             magical_visvesvaraya
+7afd6043c30d   02e1b436bb17                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             blissful_snyder
+b968be185744   3c6464f69210                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             elated_kowalevski
+503636d13a2f   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             gallant_joliot
+8146c836ad1c   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             festive_ritchie
+4790b34d9b05   9994ec00a8d9                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             infallible_lalande
+e81ed23effc7   c6184a8569de                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             elated_wiles
+7fb524ec3eae   d762238e945e                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago             quizzical_hugle
+3aff7393d534   data_aggregation_microservice     "python data_aggrega…"   2 hours ago         Exited (0) 2 hours ago                   musing_chaplygin
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker start data_ingestion_container
+data_ingestion_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker start data_preprocessing_container
+data_preprocessing_container
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker ps -a
+CONTAINER ID   IMAGE                             COMMAND                  CREATED             STATUS                          PORTS     NAMES
+8b1caebc322f   data_preprocessing_microservice   "python data_preproc…"   18 minutes ago      Exited (0) 6 seconds ago                  data_preprocessing_container
+4c4380774083   data_aggregation_microservice     "python data_aggrega…"   19 minutes ago      Exited (0) About a minute ago             data_aggregation_container
+253771ecc3ed   data_ingestion_microservice       "python data_ingesti…"   21 minutes ago      Exited (1) 19 seconds ago                 data_ingestion_container
+8493fb18a836   data_preprocessing_microservice   "python data_preproc…"   53 minutes ago      Exited (0) 53 minutes ago                 stoic_fermat
+4299170380cf   data_ingestion_microservice       "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              magical_visvesvaraya
+7afd6043c30d   02e1b436bb17                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              blissful_snyder
+b968be185744   3c6464f69210                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              elated_kowalevski
+503636d13a2f   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              gallant_joliot
+8146c836ad1c   59b08923dbd4                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              festive_ritchie
+4790b34d9b05   9994ec00a8d9                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              infallible_lalande
+e81ed23effc7   c6184a8569de                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              elated_wiles
+7fb524ec3eae   d762238e945e                      "python data_ingesti…"   About an hour ago   Exited (1) About an hour ago              quizzical_hugle
+3aff7393d534   data_aggregation_microservice     "python data_aggrega…"   2 hours ago         Exited (0) 2 hours ago                    musing_chaplygin
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker container data_preprocessing_container
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Execute a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Create and run a new container from an image
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker container data_preprocessing_microservice
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Execute a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Create and run a new container from an image
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker containers data_preprocessing_microservice
+docker: 'containers' is not a docker command.
+See 'docker --help'
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_ingestion_container
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_preprocessing_container
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+Data before preprocessing:
+             account_number  transaction_amount               tstmp
+9    GB86PLOR94272904253828            42297.30 2023-01-31 04:35:24
+24   GB70EYDZ20678577260796            85674.75 2023-03-10 20:10:25
+36   GB25NDOM01863388591418            43089.50 2023-02-15 23:25:29
+43   GB69AHFA85175890538493            56574.78 2023-03-27 23:13:21
+46   GB67PRHA46416335411010            12928.92 2023-03-23 18:27:05
+54   GB18NFFU63694610043206            22540.12 2023-01-06 04:51:29
+56   GB78WWVV37883159147715            86707.71 2023-03-13 19:53:26
+112  GB54GDSR11183790872029            73172.07 2023-01-15 16:33:07
+113  GB10VFCH17724565502812            36116.57 2023-03-27 22:47:44
+125  GB03NXGJ50753938939909            46086.16 2023-03-04 22:18:41
+Data after preprocessing:
+     transaction_amount  account_number_encoded         tstmp
+9              42297.30                   62906  1.675140e+09
+24             85674.75                   50632  1.678479e+09
+36             43089.50                   17432  1.676504e+09
+43             56574.78                   49748  1.679959e+09
+46             12928.92                   48696  1.679596e+09
+54             22540.12                   12249  1.672981e+09
+56             86707.71                   57141  1.678737e+09
+112            73172.07                   38675  1.673800e+09
+113            36116.57                    6536  1.679957e+09
+125            46086.16                    1133  1.677968e+09
+Preprocessed Data:
+       transaction_amount  account_number_encoded         tstmp
+0                42297.30                   62906  1.675140e+09
+1                85674.75                   50632  1.678479e+09
+2                43089.50                   17432  1.676504e+09
+3                56574.78                   49748  1.679959e+09
+4                12928.92                   48696  1.679596e+09
+...                   ...                     ...           ...
+72183            76915.63                   49196  1.678275e+09
+72184            14105.26                   27507  1.679966e+09
+72185            95778.34                   71478  1.679156e+09
+72186            38017.13                   22089  1.677698e+09
+72187            41717.04                   32347  1.676116e+09
+
+[72188 rows x 3 columns]
+Table Names:
+['aggregated_data', 'financial_data', 'preprocessed_data']
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_aggregation_container
+Aggregated Data:
+        tstmp  transaction_amount
+0  2022-01-01               150.0
+1  2022-01-02               200.0
+Aggregated Data:
+        tstmp  transaction_amount
+0  2022-01-01               150.0
+1  2022-01-02               200.0
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker logs data_ingestion_container
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 70, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>cd ./data_ingestion
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker build -t data-ingestion-app .
+[+] Building 36.9s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 456B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load metadata for docker.io/library/python:3.8-slim                                                                                                     4.3s
+ => [1/5] FROM docker.io/library/python:3.8-slim@sha256:a120604614f3f123d88611722c865403a250e8b277e75ca600eae43591508be8                                               0.0s
+ => [internal] load build context                                                                                                                                      0.0s
+ => => transferring context: 2.29kB                                                                                                                                    0.0s
+ => CACHED [2/5] WORKDIR /app                                                                                                                                          0.0s
+ => [3/5] COPY data_ingestion_abs_path.py /app/                                                                                                                        0.1s
+ => [4/5] COPY financial_data.csv /app/                                                                                                                                2.6s
+ => [5/5] RUN pip install pandas                                                                                                                                      27.6s
+ => exporting to image                                                                                                                                                 2.0s
+ => => exporting layers                                                                                                                                                1.9s
+ => => writing image sha256:c75921e44856609d1e574850e7cd73ec87dccba3eb3fb9265edee316d41e71b5                                                                           0.0s
+ => => naming to docker.io/library/data-ingestion-app                                                                                                                  0.0s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -v "C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion:/app" data-ingestion-app
+Traceback (most recent call last):
+  File "data_ingestion_abs_path.py", line 67, in <module>
+    print(data_ingestion(csv_file_path, database_file_path, log_file_path))
+  File "data_ingestion_abs_path.py", line 35, in data_ingestion
+    raise e
+  File "data_ingestion_abs_path.py", line 26, in data_ingestion
+    with create_database(database_path) as conn:
+  File "data_ingestion_abs_path.py", line 57, in create_database
+    raise e
+  File "data_ingestion_abs_path.py", line 49, in create_database
+    conn = sqlite3.connect(database_path)
+sqlite3.OperationalError: unable to open database file
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker run -v "C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion:/app" data-ingestion-app
+           account_number  transaction_amount                tstmp
+0  GB90OGBA77010845691222            51814.98  2021-04-11 02:41:43
+1  GB76ZMJH70403796694944            64717.70  2020-06-11 00:40:45
+2  GB80DCCO54976637689250            11888.18  2022-04-01 15:28:53
+3  GB14ZTEM80613961080629            58785.48  2021-01-23 04:22:00
+4  GB48EVKG59142399656950            43147.76  2020-09-24 12:02:55
+5  GB63PLOG00443201253874            54831.12  2022-07-29 14:00:16
+6  GB43NLES82704837291924            13451.48  2020-04-26 04:20:26
+7  GB45UQQG64817000954658            42378.11  2020-07-22 02:22:43
+8  GB47IIPK67977599504975            25344.66  2022-01-17 17:31:51
+9  GB86PLOR94272904253828            42297.30  2023-01-31 04:35:24
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>cd "C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data"
+Das System kann den angegebenen Pfad nicht finden.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>cd "C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2"
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker build -t database-service .
+[+] Building 0.3s (2/2) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.2s
+ => => transferring dockerfile: 2B                                                                                                                                     0.1s
+ => [internal] load .dockerignore                                                                                                                                      0.2s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ERROR: failed to solve: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount4256835126/Dockerfile: no such file or directory
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>ls
+Der Befehl "ls" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>cd "C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db"
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db>ls
+Der Befehl "ls" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db>docker build -t database-service .
+[+] Building 2.1s (3/3) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 378B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.2s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => ERROR [internal] load metadata for docker.io/library/sqlite:latest                                                                                                 1.9s
+------
+ > [internal] load metadata for docker.io/library/sqlite:latest:
+------
+Dockerfile:2
+--------------------
+   1 |     # Use an official SQLite image as the base image
+   2 | >>> FROM sqlite:latest
+   3 |
+   4 |     # Copy the database file to the container
+--------------------
+ERROR: failed to solve: sqlite:latest: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db>docker build -t database-service .
+[+] Building 11.9s (10/10) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 386B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.0s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load metadata for docker.io/library/alpine:latest                                                                                                       2.8s
+ => [1/5] FROM docker.io/library/alpine:latest@sha256:7144f7bab3d4c2648d7e59409f15ec52a18006a128c733fcff20d3a4a54ba44a                                                 2.1s
+ => => resolve docker.io/library/alpine:latest@sha256:7144f7bab3d4c2648d7e59409f15ec52a18006a128c733fcff20d3a4a54ba44a                                                 0.1s
+ => => sha256:7144f7bab3d4c2648d7e59409f15ec52a18006a128c733fcff20d3a4a54ba44a 1.64kB / 1.64kB                                                                         0.0s
+ => => sha256:c5c5fda71656f28e49ac9c5416b3643eaa6a108a8093151d6d1afc9463be8e33 528B / 528B                                                                             0.0s
+ => => sha256:7e01a0d0a1dcd9e539f8e9bbd80106d59efbdf97293b3d38f5d7a34501526cdb 1.47kB / 1.47kB                                                                         0.0s
+ => => sha256:7264a8db6415046d36d16ba98b79778e18accee6ffa71850405994cffa9be7de 3.40MB / 3.40MB                                                                         0.6s
+ => => extracting sha256:7264a8db6415046d36d16ba98b79778e18accee6ffa71850405994cffa9be7de                                                                              0.7s
+ => [internal] load build context                                                                                                                                      3.7s
+ => => transferring context: 79.44MB                                                                                                                                   3.6s
+ => [2/5] RUN apk add --no-cache sqlite                                                                                                                                4.1s
+ => [3/5] RUN mkdir /data                                                                                                                                              0.8s
+ => [4/5] COPY financial_data.db /data/                                                                                                                                0.8s
+ => [5/5] WORKDIR /data                                                                                                                                                0.2s
+ => exporting to image                                                                                                                                                 1.0s
+ => => exporting layers                                                                                                                                                0.8s
+ => => writing image sha256:a59f322ef44b823fd6a0048d1239495f978aac9619d7fbbdcc3d292ff416d5b5                                                                           0.0s
+ => => naming to docker.io/library/database-service                                                                                                                    0.1s
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db>docker run -d --name database-container database-service
+1f25e5552d2e15b8f442cd020087d413fffa52ad85f0855c680074ee160056c4
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db>docker logs 1f25e5552d2e15b8f442cd020087d413fffa52ad85f0855c680074ee160056c4
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\db>cd..
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>docker-compose up
+[+] Building 0.0s (0/0)
+[+] Building 0.2s (2/2) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.2s
+ => => transferring dockerfile: 2B                                                                                                                                     0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+failed to solve: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount678042868/Dockerfile: no such file or directory
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2>cd ./data_ingestion
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker-compose up
+[+] Building 1.9s (3/3) FINISHED
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => [internal] load build definition from Dockerfile                                                                                                                   0.2s
+ => => transferring dockerfile: 380B                                                                                                                                   0.0s
+ => ERROR [internal] load metadata for docker.io/library/sqlite:latest                                                                                                 1.7s
+------
+ > [internal] load metadata for docker.io/library/sqlite:latest:
+------
+failed to solve: sqlite:latest: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker-compose up
+[+] Building 1.8s (3/3) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.0s
+ => => transferring dockerfile: 380B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => ERROR [internal] load metadata for docker.io/library/sqlite:latest                                                                                                 1.7s
+------
+ > [internal] load metadata for docker.io/library/sqlite:latest:
+------
+failed to solve: sqlite:latest: pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker-compose up
+validating C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion\docker-compose.yml: (root) Additional property database-container is not allowed
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker-compose up
+[+] Running 1/1
+ ✘ database-container Error                                                                                                                                            2.1s
+Error response from daemon: pull access denied for sqlite, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker-compose up
+[+] Running 1/1
+ ✘ database-container Error                                                                                                                                            9.2s
+Error response from daemon: pull access denied for bitnami/sqlite, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>
+C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\DE\data2\data_ingestion>docker-compose up
+[+] Running 14/14
+ ✔ db 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                                                30.9s
+   ✔ 648e0aadf75a Already exists                                                                                                                                       0.0s
+   ✔ f715c8c55756 Pull complete                                                                                                                                        2.3s
+   ✔ b11a1dc32c8c Pull complete                                                                                                                                        3.0s
+   ✔ f29e8ba9d17c Pull complete                                                                                                                                        3.5s
+   ✔ 78af88a8afb0 Pull complete                                                                                                                                        4.5s
+   ✔ b74279c188d9 Pull complete                                                                                                                                        4.7s
+   ✔ 6e3e5bf64fd2 Pull complete                                                                                                                                        4.9s
+   ✔ b62a2c2d2ce5 Pull complete                                                                                                                                        5.1s
+   ✔ 8fd97c27b3fa Pull complete                                                                                                                                       26.7s
+   ✔ cb70616b7657 Pull complete                                                                                                                                       27.2s
+   ✔ d8ada539301f Pull complete                                                                                                                                       27.4s
+   ✔ c60b6f73552c Pull complete                                                                                                                                       27.6s
+   ✔ 665d514d2b02 Pull complete                                                                                                                                       27.9s
+[+] Building 2.8s (3/3) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                                                   0.1s
+ => => transferring dockerfile: 380B                                                                                                                                   0.0s
+ => [internal] load .dockerignore                                                                                                                                      0.1s
+ => => transferring context: 2B                                                                                                                                        0.0s
+ => ERROR [internal] load metadata for docker.io/library/sqlite:latest                                                                                                 2.6s
+------

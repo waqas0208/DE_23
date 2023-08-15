@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  data_ingestion_container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "C:/Users/waqas/OneDrive - IU International University of Applied Sciences/Dokumente/MSc Data Science/WS22-23/DE/data2/data_ingestion:/app"
+    depends_on:
+      - db
+    environment:
+      database_path: "/app/db/financial_data.db"
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
