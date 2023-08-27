@@ -12,3 +12,17 @@
 2023-08-13 18:21:01,825 - ERROR - Error occurred during data ingestion: unable to open database file
 2023-08-13 18:25:21,542 - INFO - Database created successfully.
 2023-08-13 18:26:21,434 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-19 19:32:32,994 - ERROR - Error occurred during data ingestion: 'str' object has no attribute 'to_sql'
+2023-08-19 19:33:55,832 - ERROR - Error occurred during data ingestion: 'str' object has no attribute 'to_sql'
+2023-08-19 19:35:45,355 - ERROR - Error occurred during data ingestion: 'str' object has no attribute 'to_sql'
+2023-08-19 19:36:54,056 - ERROR - Error occurred during data ingestion: 'str' object has no attribute 'to_sql'
+2023-08-19 19:37:55,167 - ERROR - Error occurred during data ingestion: 'str' object has no attribute 'to_sql'
+2023-08-19 20:35:39,871 - INFO - Database created successfully.
+2023-08-19 20:35:57,588 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-19 21:32:11,155 - INFO - Database created successfully.
+2023-08-19 21:32:24,421 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-19 21:32:33,260 - ERROR - Error occurred during data ingestion: 'str' object has no attribute 'to_sql'
+2023-08-19 21:53:02,639 - INFO - Database created successfully.
+2023-08-19 21:53:16,075 - INFO - Data ingestion successful. Number of rows: 1000000
+2023-08-27 11:47:50,275 - INFO - Database created successfully.
+2023-08-27 11:48:03,756 - INFO - Data ingestion successful. Number of rows: 1000000

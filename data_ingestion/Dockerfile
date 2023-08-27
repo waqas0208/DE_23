@@ -1,15 +1,20 @@
-# Use an official SQLite image as the base image
-FROM sqlite:latest
+# Use an official Python runtime as the base image
+FROM python:3.9
 
-# Copy the database file to the container
-COPY financial_data.db /data2/
-COPY requirements.txt app
-
-# Specify the working directory
+# Set the working directory in the container
 WORKDIR /data2
 
-# Expose the port (if needed)
-# EXPOSE 5432
+# Copy the CSV file and the database file to the container
+COPY financial_data.csv .
+COPY data_ingestion.py .
+COPY requirements.txt .
+COPY data_ingestion.log .
 
-# Define the command to run when the container starts
-CMD ["sqlite3", "financial_data.db"]
+#run requirements for modules
+RUN pip install pandas
+
+# Expose port 5000 (or any other port your Flask app is listening on)
+EXPOSE 5000
+
+# Run the Flask app when the container launches
+CMD ["python", "data_ingestion.py"]

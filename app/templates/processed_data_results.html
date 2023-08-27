@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Processed Data Results</title>
+</head>
+<body>
+    <h1>processed Data Results</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Transaction Amount</th>
+                <th>Account Number Encoded</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in processed_data %}
+            <tr>
+                <td>{{ row['transaction_amount'] }}</td>
+                <td>{{ row['account_number_encoded'] }}</td>
+                <td>{{ row['tstmp'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

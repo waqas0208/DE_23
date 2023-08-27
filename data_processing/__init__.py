@@ -1,1 +1,1 @@
-from .data_processing_abs_path import data_processing
+from .data_processing import data_processing

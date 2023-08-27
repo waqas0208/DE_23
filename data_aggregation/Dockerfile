@@ -1,15 +1,20 @@
 # Use an official Python runtime as the base image
-FROM python:3.8-slim
+FROM python:3.9
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /data2
 
-# Copy the script to the container
-COPY data_aggregation_abs_path.py /app/
-COPY requirements.txt app
+# Copy the microservice files and requirements to the container
+COPY data_aggregation.py .
+COPY requirements.txt .
+COPY financial_data.db .
 
-# Install pandas and sqlite3 (required dependencies)
-RUN pip install pandas
 
-# Run the script when the container launches
-CMD ["python", "data_aggregation_abs_path.py"]
+# Install required dependencies
+RUN pip install -r requirements.txt
+
+# Expose port 5000
+EXPOSE 5000
+
+# Run the microservice when the container launches
+CMD ["python", "data_aggregation.py"]

@@ -1,6 +1,28 @@
-<<<<<<< HEAD
-Case study Model Engineering/
-Portfolio DE/
-=======
-toignore
->>>>>>> c40de99 (Initial commit)
+# Compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Dependency directories
+venv/
+env/
+node_modules/
+
+# OS or editor generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Ignore specific folders or files
+toignore/
+redundant_file.txt
+
+# Ignore IDE or editor settings
+.vscode/
+.idea/

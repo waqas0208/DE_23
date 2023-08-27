@@ -1,0 +1,22 @@
+version: '3'
+services:
+  data_ingestion:
+    image: dataingestion
+    # other configuration options for this service
+
+  data_processing:
+    image: dataprocessing
+    # other configuration options for this service
+
+  data_aggregation:
+    image: dataaggregation
+    # other configuration options for this service
+
+  flask_app:
+    image: flask_app_image
+    ports:
+      - "5000:5000"
+    depends_on:
+      - data_ingestion
+      - data_processing
+      - data_aggregation
