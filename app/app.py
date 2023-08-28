@@ -4,9 +4,9 @@ from flask import Flask, render_template
 import sys
 
 # Append module directories to sys.path
-sys.path.append(r"C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\Portfolio\data2\data_ingestion")
-sys.path.append(r"C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\Portfolio\data2\data_processing")
-sys.path.append(r"C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\Portfolio\data2\data_aggregation")
+sys.path.append(r"C:\data2\data_ingestion")
+sys.path.append(r"C:\data2\data_processing")
+sys.path.append(r"C:\data2\data_aggregation")
 
 app = Flask(__name__)
 
@@ -15,8 +15,8 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(leve
 logger = logging.getLogger(__name__)
 
 # Configuration settings (import from config.py if applicable)
-CSV_FILE_PATH = r"C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\Portfolio\data2\data\financial_data.csv"
-DATABASE_FILE_PATH = r"C:\Users\waqas\OneDrive - IU International University of Applied Sciences\Dokumente\MSc Data Science\WS22-23\Portfolio\data2\db\financial_data.db"
+CSV_FILE_PATH = r"C:\data2\data\financial_data.csv"
+DATABASE_FILE_PATH = r"C:\data2\db\financial_data.db"
 
 
 def get_data_ingestion():
